@@ -1,4 +1,5 @@
-﻿class Family
+﻿
+class Family
 {
     List<Person> members = new List<Person>();
     List<Person> Members
@@ -19,28 +20,4 @@
         return oldest;
     }
 
-}
-
-class Task2
-{
-    static public void Main()
-    {
-        Console.WriteLine("quantity of people:");
-
-        int quantity = Console.Read();
-        Family Members = new Family();
-
-        Console.WriteLine("input the names and ages of family members");
-        for (int i = 0; i < quantity; i++)
-        {
-            Console.WriteLine("name:");
-            string name = Console.ReadLine();
-            Console.WriteLine("age:");
-            int age = Console.Read();
-            Person member = new Person(name, age);
-            Members.AddMember(member);
-        }
-
-        Console.WriteLine(Members.GetOldestMember());
-    }
 }
