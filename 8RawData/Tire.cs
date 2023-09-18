@@ -5,9 +5,9 @@
     public int tireAge
     { get; set; }
 
-    public double[] getEngine()
+    public Tire(double tirePressure, int tireAge)
     {
-        double[] data = { tirePressure, tireAge };
-        return data;
+        this.tirePressure = tirePressure;
+        this.tireAge = tireAge;
     }
 }

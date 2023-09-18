@@ -11,6 +11,14 @@
 
     List <Tire> tires = new List<Tire>(4);
 
+    public Car(string model, Engine engine, Cargo cargo, List<Tire> tires)
+    {
+        Model = model;
+        this.engine = engine;
+        this.cargo = cargo;
+        this.tires = tires;
+    }
+
     public string isFragile()
     {
         if (cargo.CargoType.Equals("fragile") && tires.Exists(x => x.tirePressure <1))

@@ -6,5 +6,12 @@ List<Car> list = new List<Car>(2);
 for (int i = 0; i < N; i++)
 {
    string[] carProperties = Console.ReadLine().Split(" ");
+    Engine engine = new Engine(engineSpeed: Convert.ToInt32(carProperties[1]), enginePower: Convert.ToInt32(carProperties[2]));
+    Cargo cargo = new Cargo(cargoWeight: Convert.ToInt32(carProperties[3]), cargoType: carProperties[4] );
+    List<Tire> tires = new List<Tire>(4);
+    tires.Add(new Tire(Convert.ToInt32(carProperties[5]), Convert.ToInt32(carProperties[6])) );
+    tires.Add(new Tire(Convert.ToInt32(carProperties[7]), Convert.ToInt32(carProperties[8])) );
+    tires.Add(new Tire(Convert.ToInt32(carProperties[9]), Convert.ToInt32(carProperties[10])) );
+    tires.Add(new Tire(Convert.ToInt32(carProperties[11]), Convert.ToInt32(carProperties[12])) );
 
 }
