@@ -3,9 +3,10 @@ List<Employee> employees =  new List<Employee>(N);
 for (int i = 0; i<N; i++)
 {
     Console.WriteLine("input information in this order: name, salary, position, department, email and age.");
-    string[] info = (Console.ReadLine()).Split(" ");
+    string[] info = new string[6];
+    info = (Console.ReadLine()).Split(" ");
 
-    Employee employee = new Employee(info[0], Convert.ToInt32(info[1]), info[2], info[3]); 
+    Employee employee = new Employee(info[0], Convert.ToDouble(info[1]), info[2], info[3]); 
     employee.Email = info[4];
    employee.Age = Convert.ToInt32(info[5]);
 
@@ -13,8 +14,8 @@ for (int i = 0; i<N; i++)
 }
 
 employees.OrderBy(x => x.Department);
-int average = employees[0].Salary;
-int MaxAverage = 0;
+double average = employees[0].Salary;
+double MaxAverage = 0;
 string BestDepartment = employees[0].Department;
 for (int i = 1;i < employees.Count;i++)
 {
