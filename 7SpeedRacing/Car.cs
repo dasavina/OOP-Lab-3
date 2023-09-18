@@ -29,7 +29,7 @@
         if (amountOfKm * FuelConsumption <= FuelAmount)
         {
             FuelAmount -= amountOfKm * FuelConsumption;
-            DistanceTravelled += amountOfKm;
+            DistanceTravelled = amountOfKm;
             return true;
         }
         else
