@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person1and2", "1. Define a Class Person\Person1and2.csproj", "{0F4C0A09-0993-4FD3-A2CC-EB626557C729}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task1to4", "1. Define a Class Person\task1to4.csproj", "{0F4C0A09-0993-4FD3-A2CC-EB626557C729}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5DateModifier", "5DateModifier\5DateModifier.csproj", "{EA4E36B8-6E1A-4BFB-AAFF-F70CE56EF682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6CompanyRoster", "6CompanyRoster\6CompanyRoster.csproj", "{77E257F8-C9E5-49A2-A784-B1F64894A8D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{0F4C0A09-0993-4FD3-A2CC-EB626557C729}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F4C0A09-0993-4FD3-A2CC-EB626557C729}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F4C0A09-0993-4FD3-A2CC-EB626557C729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4E36B8-6E1A-4BFB-AAFF-F70CE56EF682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4E36B8-6E1A-4BFB-AAFF-F70CE56EF682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4E36B8-6E1A-4BFB-AAFF-F70CE56EF682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4E36B8-6E1A-4BFB-AAFF-F70CE56EF682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E257F8-C9E5-49A2-A784-B1F64894A8D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E257F8-C9E5-49A2-A784-B1F64894A8D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E257F8-C9E5-49A2-A784-B1F64894A8D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E257F8-C9E5-49A2-A784-B1F64894A8D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
