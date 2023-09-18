@@ -13,5 +13,28 @@ for (int i = 0; i < N; i++)
     tires.Add(new Tire(Convert.ToInt32(carProperties[7]), Convert.ToInt32(carProperties[8])) );
     tires.Add(new Tire(Convert.ToInt32(carProperties[9]), Convert.ToInt32(carProperties[10])) );
     tires.Add(new Tire(Convert.ToInt32(carProperties[11]), Convert.ToInt32(carProperties[12])) );
+    Car car = new Car(model: carProperties[0], engine, cargo, tires);
+    list.Add(car);
+}
 
+string command = Console.ReadLine();
+switch (command)
+{
+    case "fragile":
+        {
+            foreach(Car car in list)
+            {
+                car.isFragile();
+            }
+
+        }break;
+    case "flamable":
+        {
+            foreach (Car car in list)
+            {
+                car.isFlamable();
+            }
+
+        } break;
+    default: Console.WriteLine("wrong command"); break;
 }
