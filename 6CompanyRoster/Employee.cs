@@ -22,12 +22,14 @@
         set { Email = (value is null) ? "n/a" : value; }
     }
 
-    public Employee(string name, double salary, string position, string department)
+    public Employee(string name, double salary, string position, string department, string email, string age)
     {
+        Age = (age is null)? -1: Convert.ToInt16(age);
         Salary = salary;
-        Name = name ?? throw new ArgumentNullException(nameof(name));
-        Position = position ?? throw new ArgumentNullException(nameof(position));
-        Department = department ?? throw new ArgumentNullException(nameof(department));
+        Name = name;
+        Position = position;
+        Department = department;
+        Email = email;
     }
 
     public string getEmployee()

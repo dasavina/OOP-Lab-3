@@ -6,10 +6,13 @@ for (int i = 0; i < N; i++)
     string[] info = new string[6];
     info = (Console.ReadLine()).Split(" ");
 
-    Employee employee = new Employee(info[0], Convert.ToDouble(info[1]), info[2], info[3]);
-    employee.Email = info[4];
-    employee.Age = (info[5] is null) ? -1 : Convert.ToInt32(info[5]);
+    if (!info[4].Contains('@') && (info[5] is null))
+        {
+        info[5] = info[4];
+        info[4] = null;
+        }
 
+    Employee employee = new Employee(info[0], Convert.ToDouble(info[1]), info[2], info[3], email:info[4], age:info[5]);
     employees.Add(employee);
 }
 
