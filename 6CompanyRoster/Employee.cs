@@ -3,8 +3,7 @@
 
     public int Age
     {
-        get { return Age; }
-        set { Age = (value is 0) ? -1 : value; }
+        get; set;
     }
     public double Salary
     {

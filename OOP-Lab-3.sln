@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7SpeedRacing", "7SpeedRacin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8RawData", "8RawData\8RawData.csproj", "{7C746862-DF0A-484B-8842-3166312D58F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9RectangleIntersection", "9RectangleIntersection\9RectangleIntersection.csproj", "{83B9FDBD-1DC8-4DB8-8027-223F52589B32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7C746862-DF0A-484B-8842-3166312D58F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C746862-DF0A-484B-8842-3166312D58F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C746862-DF0A-484B-8842-3166312D58F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B9FDBD-1DC8-4DB8-8027-223F52589B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B9FDBD-1DC8-4DB8-8027-223F52589B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B9FDBD-1DC8-4DB8-8027-223F52589B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B9FDBD-1DC8-4DB8-8027-223F52589B32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
